@@ -34,10 +34,29 @@ Plug 'Pocco81/auto-save.nvim'
 " Theme
 Plug 'dracula/vim' 
 
+Plug 'morhetz/gruvbox'
+
+Plug 'joshdick/onedark.vim'
+
+Plug 'sainnhe/sonokai'
+
+Plug 'sainnhe/edge'
+
+Plug 'vim-airline/vim-airline'
+
+Plug 'projekt0n/github-nvim-theme'
+
+Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
+
+Plug 'xero/miasma.nvim'
 
 " Color picker
 " Plug 'DougBeney/pickachu'
 Plug 'brenoprata10/nvim-highlight-colors'
+
+" Search plugin s asynchroním vyhledáváním
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 
 
@@ -61,7 +80,7 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
 
 " Autostart NERDFocus
-autocmd VimEnter * call NERDTreeFocus()
+"autocmd VimEnter * call NERDTreeFocus()
 
 
 " Klávesové zkratka exit
