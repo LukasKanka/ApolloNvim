@@ -1,11 +1,16 @@
 set number
 
+" Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 
-call plug#begin('c:\users\lukas\appdata\local\nvim\autoload\plugged')
-
-
+" NERDTree postraní stromové řazení
 Plug 'https://github.com/scrooloose/nerdtree'
+
+
+" Tabnine
+Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
+
 
 "Coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -26,29 +31,20 @@ Plug 'itchyny/lightline.vim'
 " Autosave
 Plug 'Pocco81/auto-save.nvim'
 
+" Theme
+Plug 'dracula/vim' 
+
+
 " Color picker
 " Plug 'DougBeney/pickachu'
 Plug 'brenoprata10/nvim-highlight-colors'
 
-" Themes
-Plug 'projekt0n/github-nvim-theme'
-
-Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
-
-Plug 'xero/miasma.nvim'
-
-Plug 'morhetz/gruvbox'
-
-Plug 'joshdick/onedark.vim'
-
-Plug 'sainnhe/sonokai'
-
-Plug 'sainnhe/edge'
-
-Plug 'dracula/vim' 
 
 
+" List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+
 
 " Barvičky highlight (podle kodu obarví text)
 set termguicolors
@@ -63,12 +59,10 @@ vmap <C-l> <plug>NERDCommenterToggle<CR>
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
 
+
 " Autostart NERDFocus
 autocmd VimEnter * call NERDTreeFocus()
 
-
-" Github Copilot 
-let g:copilot_filetypes = {'*': v:true}
 
 " Klávesové zkratka exit
 nnoremap <C-e> :exit<CR>
@@ -83,7 +77,7 @@ noremap <C-S> :w<CR>
 set clipboard=unnamedplus
 
 " Prettier klávesové zkratky
-nmap <c-w> :Prettier<cr>
+nmap <c-p> :Prettier<cr>
 
 " Atomaticky po startu theme
 colorscheme dracula
@@ -122,3 +116,27 @@ noremap <C-ScrollWheelUp> :call AdjustFontSize(1)<CR>
 noremap <C-ScrollWheelDown> :call AdjustFontSize(-1)<CR>
 inoremap <C-ScrollWheelUp> <Esc>:call AdjustFontSize(1)<CR>a
 inoremap <C-ScrollWheelDown> <Esc>:call AdjustFontSize(-1)<CR>a
+
+
+
+
+
+
+
+
+
+
+lua <<EOF
+
+--Tabnine setup ( Tabnine PRO) 
+require('tabnine').setup({
+  disable_auto_comment=true,
+  accept_keymap="<Tab>",
+  dismiss_keymap = "<C-]>",
+  debounce_ms = 800,
+  suggestion_color = {gui = "#808080", cterm = 244},
+  exclude_filetypes = {"TelescopePrompt", "NvimTree"},
+  log_file_path = nil, -- absolute path to Tabnine log file
+})
+
+EOF
