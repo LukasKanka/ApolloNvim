@@ -11,6 +11,8 @@ Plug 'https://github.com/scrooloose/nerdtree'
 " Tabnine
 Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
 
+" Alternativní startovací obrazovka
+Plug 'mhinz/vim-startify'
 
 "Coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -103,7 +105,7 @@ colorscheme dracula
 autocmd VimEnter * colorscheme dracula
 
 " Nastavení copy a paste
-"ynoremap <C-c> "+y
+nnoremap <C-c> "+y
 nnoremap <C-v> "+p
 
 " Nastavení výjmutí
