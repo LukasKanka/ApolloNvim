@@ -5,6 +5,11 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 Plug 'othree/html5.vim'
 
+" NERDTree postraní panel 
+Plug 'https://github.com/scrooloose/nerdtree'
+
+" Treesitter (zvýraznění syntaxe)
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "Coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -15,6 +20,8 @@ Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
 " Alternativní startovací obrazovka
 Plug 'mhinz/vim-startify'
 
+" Autopairs
+Plug 'windwp/nvim-autopairs'
 
 " NERD Commenter
 Plug 'preservim/nerdcommenter'
@@ -64,7 +71,8 @@ call plug#end()
 " Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
-
+" Autostart NERDTreeFocus
+autocmd VimEnter * call NERDTreeFocus()
 
 " Komentáře NERD Commenter klávesové zkratky
 let mapleader=","
@@ -104,7 +112,10 @@ require('tabnine').setup({
   log_file_path = nil, -- absolute path to Tabnine log file
 })
 
+
+-- autopairs
+require("nvim-autopairs").setup {}
+
 EOF
 
 " Konec tabnine
-
