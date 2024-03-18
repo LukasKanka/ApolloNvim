@@ -9,7 +9,7 @@ Plug 'othree/html5.vim'
 Plug 'https://github.com/scrooloose/nerdtree'
 
 " Treesitter (zvýraznění syntaxe)
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "Coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
