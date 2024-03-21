@@ -8,9 +8,6 @@ Plug 'othree/html5.vim'
 " NERDTree postraní panel 
 Plug 'https://github.com/scrooloose/nerdtree'
 
-" Treesitter (zvýraznění syntaxe)
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
 "Coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -24,7 +21,7 @@ Plug 'mhinz/vim-startify'
 Plug 'windwp/nvim-autopairs'
 
 " NERD Commenter
-Plug 'preservim/nerdcommenter'
+" Plug 'preservim/nerdcommenter'
 
 " Wakatime
 Plug 'wakatime/vim-wakatime'
@@ -40,7 +37,15 @@ Plug 'itchyny/lightline.vim'
 Plug 'Pocco81/auto-save.nvim'
 
 " Theme
-Plug 'dracula/vim' 
+Plug 'dracula/vim'
+
+Plugin 'NLKNguyen/papercolor-theme'
+
+Plug 'Tsuzat/NeoSolarized.nvim', { 'branch': 'master' }
+
+Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
+
+Plug 'ghifarit53/tokyonight-vim'
 
 Plug 'morhetz/gruvbox'
 
@@ -114,7 +119,7 @@ require('tabnine').setup({
 
 
 -- autopairs
-require("nvim-autopairs").setup {}
+--require("nvim-autopairs").setup {}
 
 EOF
 
