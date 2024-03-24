@@ -1,7 +1,7 @@
 ## Setup Nvim Front-end Power
-* Zde najdete můj setup Nvim.
+* Můj setup Nvim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
 * Toto nastavení jsem si udělal pro vývoj webu. Inspiroval jsem se pluginy které jsem využíval v VSCode a Webstorm.
-* Hlavní přednosti tohoto nastavení pro mě jsou: Tabnine, funkční Prettier (i když v VSCode funguje přeci lépe), AutoSave, diplňování HTML, CSS, JS a zkratky k zakomentování a odkomentování kódu. Taky je zde několik pluginu pro příjemnější práci v Neovim.
+* Hlavní přednosti tohoto nastavení pro mě jsou: Tabnine, funkční Prettier, AutoSave, diplňování HTML, CSS, JS a zkratky k zakomentování a odkomentování kódu. Taky je zde několik pluginu pro příjemnější práci v Neovim.
 * Místo [LSP](https://github.com/neovim/nvim-lspconfig) v této instalaci využívám [Coc](https://github.com/neoclide/coc.nvim) pro jeho jednoduchost bez potřeby zásahů do konfigurace Coc. LSP se mi velmi osvědčilo v modálním editoru [Helix](https://helix-editor.com/) má konfigurace (Helixu)(https://git.archoslinux.cz/kankys/Helix-frontend-setup).
 * Tuto konfiguraci pravidelně vylepšuji a přizbůsobujuji i nastaveního mého oblíbeného multiplexoru [Zellij](https://git.archoslinux.cz/kankys/zellij-mySetup).
 * Aplikaci live-server z VSCode jsem nahradil terminálem. Přesunu se do složky kde mám index.html k projektu a příkazem npx live-server spustím server. Je možné si ho nastavit více možnostmi nebo ho spouštět z Neovim. Já ho pouštím z Zellij kde mám v terminálu otevřen druhý panel.
