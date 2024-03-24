@@ -5,6 +5,11 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 Plug 'othree/html5.vim'
 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" AutocloseTag
+Plug 'm4xshen/autoclose.nvim'
+
 " NERDTree postraní panel 
 Plug 'https://github.com/scrooloose/nerdtree'
 
@@ -17,11 +22,8 @@ Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
 " Alternativní startovací obrazovka
 Plug 'mhinz/vim-startify'
 
-" Autopairs
-Plug 'windwp/nvim-autopairs'
-
 " NERD Commenter
-" Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdcommenter'
 
 " Wakatime
 Plug 'wakatime/vim-wakatime'
@@ -74,7 +76,7 @@ Plug 'nordtheme/vim'
 call plug#end()
 
 " Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
 " Autostart NERDTreeFocus
 autocmd VimEnter * call NERDTreeFocus()
@@ -102,7 +104,7 @@ let g:prettier#autoformat_require_pragma = 1
 let g:prettier#autoformat_config_files = ['prettier.config.js', '.prettierrc', '.prettierrc.json', '.prettierrc.yml', '.prettierrc.yaml', '.prettierrc.json5', '.prettierrc.js', '.prettierrc.cjs', '.prettierrc.toml', '.prettierrc.jsonc', '.prettierrc.html']
 
 
-" Tabnine setup
+
 
 lua <<EOF
 
@@ -118,9 +120,11 @@ require('tabnine').setup({
 })
 
 
--- autopairs
---require("nvim-autopairs").setup {}
+--AutocloseTag setup
+require("autoclose").setup()
+
 
 EOF
 
-" Konec tabnine
+
+
