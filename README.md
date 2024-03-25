@@ -1,6 +1,6 @@
 # Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
-![Ka Neovim Distro](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 #### Verze: 24.03
+#### Link: [ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
 ## Úvod:
 * Můj setup Nvim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
 * Toto nastavení jsem si udělal pro vývoj webu. Inspiroval jsem se pluginy které jsem využíval v VSCode a Webstorm.
@@ -15,6 +15,8 @@
 
 ## Instalace a nastavení:
 * Pokud ještě nemáš nainstaluji si [Neovim](https://neovim.io/).
+* Bude potřeba nainstalovat plug.vim aby jsi mohl/a instalovat rozšíření.
+* Běž na tuto stránku `https://github.com/junegunn/vim-plug` pod Installation si najdi svůj operační systém a zkopíruj odkaz pod ním do svého terminálu.
 * Nejprve si zálohuj své aktuální nastavení Neovim!!!
 Linux & Mac:
 ```
@@ -35,6 +37,7 @@ Windows:
 * Pro instalaci  ApolloNvim Distra ti stačí stáhnout pouze soubor init.vim s tohoto repozitáře.
 * Ulož ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeň na zálohu stávajících souborů**
 * Neovim pustíš v terminálu příkazem `nvim`.
+* Odklikej chybová hlášení.
 * V Neovimu zadej do command line `PlugInstall` , tím nainstaluješ všechny pluginy. Restartuj Neovim.
 * Do command line ještě zadej Coc příkaz pro doinstalování zbylých pluginů `CocInstall coc-todolist coc-tailwindcss coc-prettier coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartuj Neovim a vše máš připravené.
 
