@@ -1,4 +1,4 @@
-# Lite Web DEV Neovim Distro 2024 -  Front-End Power
+# Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
 ![Ka Neovim Distro](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 #### Verze: 24.03
 ## Úvod:
@@ -32,7 +32,7 @@ Windows:
 * Ve svém projektu budeš moc pouštět svůj index.html příkazem `npx live-server`.
 
 ### Neovim
-* Pro instalaci Ka Neovim Distra ti stačí stáhnout pouze soubor init.vim s tohoto repozitáře.
+* Pro instalaci  ApolloNvim Distra ti stačí stáhnout pouze soubor init.vim s tohoto repozitáře.
 * Ulož ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeň na zálohu stávajících souborů**
 * Neovim pustíš v terminálu příkazem `nvim`.
 * V Neovimu zadej do command line `PlugInstall` , tím nainstaluješ všechny pluginy. Restartuj Neovim.
@@ -41,12 +41,23 @@ Windows:
 * Také se zde podívej do souboru [Hint.md](https://git.archoslinux.cz/kankys/Ka-Neovim-Distro-2024/src/branch/main/Ka-Hint.md), pomůže ti na začátku.
 * Tuto konfiguraci používám na Linuxu i MacOS. Je ozkoušena i na Windows 11.
 
+### Plán ApolloNvim:
+* Do budoucna můžete očekávat tyto nové funkce a další novinky:
+- [] Web na vlastní doméně zatím ApolloNvim najdeš [zde](https://lukaskanka.cz/apollonvim).
+- [] Instalátor 🚀 ApolloNvim přes odkaz Git.
+- [] Nová vlastní uvítací obrazovka.
+- [] Nové pluginy.
+
+### Otázky a odpovědi:
+* Stojí peníze 🚀 ApolloNvim? -> Ne 🚀 ApolloNvim je zdarma.
+
+
+### Podpora:
+* Pokud jakkoliv chceš podpořit nebo se podílet na obsahu a funkčnosti 🚀 ApolloNvim, prosím budu rád když mi zde napíšeš.
+
 ## Výběr pluginu v Lite Web DEV Neovim Distro 2024
 
 * [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
 * [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří ti stromový postraní panel.
 * [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplněků do Neovim.
 Seznam zde budu postupně rozšiřovat.
-
-
-
