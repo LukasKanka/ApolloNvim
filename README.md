@@ -1,12 +1,14 @@
 # Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
-#### Verze: 24.03
+#### Verze: 24.03 Beta
 #### Link: [ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
 ## Úvod:
-* Můj setup Nvim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
+* Můj setup Neovim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
+*  Výhody Neovim oproti klasickému IDE jsou nesporně v svobodě konfigurace, je tisíce možností jak Váš Neovim může vypadat a fungovat. Pro Vaši inspiraci a použití vznikl tento projekt  🚀 ApolloNvim.
 * Toto nastavení jsem si udělal pro vývoj webu. Inspiroval jsem se pluginy které jsem využíval v VSCode a Webstorm.
 * Velký důraz je kladen na rychlost a lehkost.
-* Ka Neovim Distro je stále vevývoji a postupně se na něm pracuje.
-* * Pro nejlepší zážitek s Ka Neovim Distro doporučuji používat multiplexor [Zellij](https://git.archoslinux.cz/kankys/zellij-mySetup), ale není to samořejmě podmínkou.
+*  🚀  ApolloNvim Distro je stále ve vývoji a postupně se na něm pracuje.
+*  Pro nejlepší zážitek doporučuji používat multiplexor [Zellij](https://git.archoslinux.cz/kankys/zellij-mySetup), ale není to samozřejmě podmínkou.
+* Pružně reaguji na změnu v pluginech, pokud některý přestane mít podporu či je lepší alternativa, pravidelně aktualizuji úložiště 🚀 ApolloNvim.
 ## Přednosti:
 * Hlavní přednosti tohoto nastavení jsou podpora: Tabnine, Prettier, AutoSave, diplňování HTML, CSS, JS a zkratky k zakomentování a odkomentování kódu. Taky je zde několik pluginu pro příjemnější práci v Neovim.
 * Místo [LSP](https://github.com/neovim/nvim-lspconfig) v této instalaci využívám [Coc](https://github.com/neoclide/coc.nvim) pro jeho jednoduchost bez potřeby zásahů do konfigurace Coc. LSP se mi velmi osvědčilo v modálním editoru [Helix](https://helix-editor.com/) má konfigurace (Helixu)(https://git.archoslinux.cz/kankys/Helix-frontend-setup).
