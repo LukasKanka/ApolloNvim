@@ -1,6 +1,9 @@
 # Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
 #### Verze: 24.03 Beta
 #### Link: [ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
+![Apollo Distro](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
+
+
 ## Úvod:
 * Můj setup Neovim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
 *  Výhody Neovim oproti klasickému IDE jsou nesporně v svobodě konfigurace, je tisíce možností jak Váš Neovim může vypadat a fungovat. Pro Vaši inspiraci a použití vznikl tento projekt  🚀 ApolloNvim.
@@ -34,7 +37,14 @@ Windows:
 * Doporučuji mít nainstalovaný [Node.js](https://nodejs.org/en) 
 * Dále si v Node.js nainstaluj [Live-server](https://www.npmjs.com/package/live-server) příkazem `npm i live-server`.
 * Ve svém projektu budeš moc pouštět svůj index.html příkazem `npx live-server`.
-
+* Také určitě doporučuji nainstalovat tyto balíčky npm budou se vám určitě hodit i když budete třeba chtít zkusit konkurenční editor [Helix-editor](https://helix-editor.com/)
+[vscode-html-language-server](https://github.com/microsoft/vscode-html-languageservice)  
+[vscode-css-language-server](https://github.com/microsoft/vscode-css-languageservice)  
+[typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)  
+[emmet-ls](https://github.com/aca/emmet-ls)  
+[tailwindcss-language-server](https://github.com/tailwindlabs/tailwindcss-intellisense/blob/master/packages/tailwindcss-language-server/README.md)  
+[marksman](https://github.com/artempyanykh/marksman)  
+[markdoc-ls](https://github.com/markdoc-extra/markdoc-ls)
 ### Neovim
 * Pro instalaci  ApolloNvim Distra ti stačí stáhnout pouze soubor init.vim s tohoto repozitáře.
 * Ulož ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeň na zálohu stávajících souborů**
