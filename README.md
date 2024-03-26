@@ -1,9 +1,10 @@
 # Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
 #### Verze: 24.03
-#### Link: [ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
+#### Link: [🚀  ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
+![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 ## Úvod:
 * Můj setup Nvim pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
-* 
+*  Výhody Neovim oproti klasickému IDE jsou nesporně v svobodě konfigurace, je tisíce možností jak Váš Neovim může vypadat a fungovat. Pro Vaši inspiraci a použití vznikl tento projekt 🚀 ApolloNvim.
 * Toto nastavení jsem si udělal pro vývoj webu. Inspiroval jsem se pluginy které jsem využíval v VSCode a Webstorm.
 * Velký důraz je kladen na rychlost a lehkost.
 * Ka Neovim Distro je stále vevývoji a postupně se na něm pracuje.
@@ -29,12 +30,12 @@ Windows:
 /home/kankys/.local/state/nvim/   (data)
 ```
 
-### Node.js
+### Node.js:
 * Doporučuji mít nainstalovaný [Node.js](https://nodejs.org/en) 
 * Dále si v Node.js nainstaluj [Live-server](https://www.npmjs.com/package/live-server) příkazem `npm i live-server`.
 * Ve svém projektu budeš moc pouštět svůj index.html příkazem `npx live-server`.
 
-### Neovim
+### Neovim:
 * Pro instalaci  ApolloNvim Distra ti stačí stáhnout pouze soubor init.vim s tohoto repositáře.
 * Ulož ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeň na zálohu stávajících souborů**
 * Neovim pustíš v terminálu příkazem `nvim`.
@@ -53,12 +54,11 @@ Windows:
 - [] Instalátor 🚀 ApolloNvim přes odkaz Git.
 - [] Nová vlastní uvítací obrazovka.
 - [] Nové pluginy.
-- [] Telegram skupina k projektu.
 - [] Návody k pluginům, jak nastavit a jak s nimi pracovat. -> Vysoká priorita
 - [] Návody k práci s Neovim -> Vysoká priorita
 
 
-## Výběr pluginu v Lite Web DEV Neovim Distro 2024
+## Výběr pluginu v Lite Web 🚀 ApolloNvim Distro 2024:
 
 * [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
 * [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří ti stromový postranní panel.
@@ -67,14 +67,44 @@ Windows:
 * [Startify](https://github.com/mhinz/vim-startify)alternativní uvítací obrazovka s pokaždé jiným IT mottem. Nemusí fungovat s některými terminály či NERDTree nastaveným spuštěním po startu.
 * [NERD Commenter](https://github.com/preservim/nerdcommenter) plugin pro zakomentování a odkomentování kódu. Zde ho máme nastaven na `Ctrl + k`.
 * [Wakatime](https://wakatime.com/neovim)služba která je schopna kolik času jste trávily při kódování na pc a i na kterém projektu. Služba se jednoduše propojí přes API.  WakaTime najdeš [zde](https://wakatime.com/).
-* 
-Seznam zde budu postupně rozšiřovat.
+* [fzf.vim](https://github.com/junegunn/fzf.vim) asynchronií vyhledávač souboru v projektu. Pro mnohé je toto vyhledávaní rychlejší než klasické stromové, chce to trochu času. Ale jak se dostane pod kůži vše ostatní Vám už přijde nedodělané.
+* [Light Line](https://github.com/itchyny/lightline.vim) informační pruh do spodní lišty.
+* [Auto-save](https://github.com/Pocco81/auto-save.nvim) plugin pro automatické ukládání vašich souboru.
+### Coc extensions pro front-end:
+* coc-todolist
+* coc-tailwindcss
+* coc-project-manager
+* coc-prettier
+* coc-json
+* coc-html-css-support
+* coc-html
+* coc-emmet
+* coc-xml
+* coc-tsserver
+* coc-lsp-wl
+* coc-lit-html
+* coc-htmldjango
+* coc-css
+* coc-markdown-preview-enhanced
+* coc-markdownlint
 
 
 ### Otázky a odpovědi:
-* Stojí peníze 🚀 ApolloNvim? -> Ne 🚀 ApolloNvim je zdarma.
-### O nás
+* Kolik stojí 🚀 ApolloNvim? -> Ne 🚀 ApolloNvim je zdarma.
+### Kontakty:
+* [🚀 ApolloNvim Telegram skupina](https://t.me/+o6qcLGlFROJhNzhk)
+* [Osobní web autora 🚀 ApolloNvim ](https://lukaskanka.cz/)
+* [Gitea profil](https://git.archoslinux.cz/kankys)
+* [GitHub](https://git.archoslinux.cz/kankys)
+* [Nostr](https://nostr.band/npub12xzu8ejrl9cwpd034cqj5jtuztn4mxp3em2frckm9tk28kmy48vqr0u0yu)
+* [Mastadon]([Nostr](https://nostr.band/npub12xzu8ejrl9cwpd034cqj5jtuztn4mxp3em2frckm9tk28kmy48vqr0u0yu))
 
 ### Podpora:
 * Pokud jakkoliv chceš podpořit nebo se podílet na obsahu a funkčnosti 🚀 ApolloNvim, prosím budu rád když mi zde napíšeš.
-### Další projekty a odkazy
+* Taky můžeš tento projekt podpořit pár Satoshi:
+![SAT](https://lukaskanka.cz/index/about/img/sat.jpeg )
+### Další projekty a odkazy:
+*  [ArchLinux CZ](https://arch-linux.cz/)
+* [Vyhledávač SearXNG CZ](https://searxng.cz/)
+* [EndeavourOS Linux](https://endeavouros.com/)
+* [i3 window manager](https://i3wm.org/)
