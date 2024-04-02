@@ -65,7 +65,7 @@ Windows:
 
 ### Plán 🚀ApolloNvim:
 * 👉 [] Do budoucna můžete očekávat tyto nové funkce a další novinky:
-- 👉 [] Web na vlastní doméně zatím 🚀 ApolloNvim najdete [zde](https://lukaskanka.cz/index/apollo-nvim/index.html). -> Vysoká priorita
+- 👉 [] Web na vlastní doméně zatím 🚀 ApolloNvim najdete [zde](https://lukaskanka.cz/index/apollo-nvim/index.html). 
 - 👉 [] Instalátor 🚀 ApolloNvim přes odkaz z Gitu.
 - 👉 [] Nová vlastní uvítací obrazovka.
 - 👉 [] Nové pluginy.
