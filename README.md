@@ -23,12 +23,11 @@
 * 👉 Nejprve si však zálohujte své aktuální nastavení Neovim!!!
 Linux & Mac:
 ```
-/home/~/.config/nvim/init.vim
+/home/user/.config/nvim/init.vim
 ```
 Windows:
 ```
-/home/~/.local/share/nvim/  (data)
-/home/~/.local/state/nvim/   (data)
+~/AppData/Local/nvim/
 ```
 
 ### Node.js:
