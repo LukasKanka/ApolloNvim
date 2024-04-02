@@ -81,7 +81,7 @@ Windows:
 * 👉 [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
 * 👉 [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří vám stromový postranní panel.
 * 👉 [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplňků do Neovim.
-* 👉 [Tabnine](https://github.com/codota/tabnine-nvim)alternativa k GitHub Copilot, který si případně lehce také můžete doinstalovat. [Tabnine](https://www.tabnine.com/) narozdíl od Copilota nabízí free program a trial verzi na 90 dní.
+* 👉 [Codeium](https://github.com/Exafunction/codeium.vim)alternativa k GitHub Copilot, který si případně lehce také můžete doinstalovat. 
 * 👉 [Startify](https://github.com/mhinz/vim-startify)alternativní uvítací obrazovka s pokaždé jiným IT mottem. Nemusí fungovat s některými terminály či NERDTree nastaveným spuštěním po startu.
 * 👉 [NERD Commenter](https://github.com/preservim/nerdcommenter) plugin pro zakomentování a odkomentování kódu. Zde ho máme nastaven na `Ctrl + k`.
 * 👉 [Wakatime](https://wakatime.com/neovim)služba, která je schopna změřit, kolik času jste trávili při kódování na pc a i na kterém projektu. Služba se jednoduše propojí přes API.  WakaTime najdeš [zde](https://wakatime.com/).
