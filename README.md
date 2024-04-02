@@ -23,12 +23,12 @@
 * 👉 Nejprve si však zálohujte své aktuální nastavení Neovim!!!
 Linux & Mac:
 ```
-/home/kankys/.config/nvim/init.vim
+/home/~/.config/nvim/init.vim
 ```
 Windows:
 ```
-/home/kankys/.local/share/nvim/  (data)
-/home/kankys/.local/state/nvim/   (data)
+/home/~/.local/share/nvim/  (data)
+/home/~/.local/state/nvim/   (data)
 ```
 
 ### Node.js:
