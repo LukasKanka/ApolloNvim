@@ -12,7 +12,7 @@
 * 👉 Pro nejlepší zážitek s 🚀 ApolloNvim Distro doporučuji používat multiplexor [Zellij](https://git.archoslinux.cz/kankys/zellij-mySetup), ale není to samozřejmě podmínkou.
 ## Přednosti:
 * 👉 Hlavní předností tohoto nastavení jsou podpora: Codeium alternativa k Copilot zdarma, Prettier, AutoSave, diplňování HTML, CSS, JS a zkratky k zakomentování a odkomentování kódu. Taky je zde několik pluginu pro příjemnější práci v Neovim.
-* 👉 S [LSP](https://github.com/neovim/nvim-lspconfig) v této instalaci využívám [Coc](https://github.com/neoclide/coc.nvim) pro jeho jednoduchost bez potřeby zásahů do konfigurace Coc. LSP se mi velmi osvědčilo v modálním editoru [Helix](https://helix-editor.com/) má konfigurace (Helixu)(https://git.archoslinux.cz/kankys/Helix-frontend-setup).
+* 👉 S [LSP](https://github.com/neovim/nvim-lspconfig) v této instalaci využívám [Coc](https://github.com/neoclide/coc.nvim) pro jeho jednoduchost bez potřeby zásahů do konfigurace Coc. LSP se mi velmi osvědčilo v modálním editoru [Helix](https://helix-editor.com/) má konfigurace [Helixu](https://git.archoslinux.cz/kankys/Helix-frontend-setup).
 * 👉 Ty nejlepší témata pro Neovim (ať je nemusíte hledat), je defaultně nastavéné Dracula.
 * 👉 Téma v Neovim si jednoduše změníte v command line příkazem `colorscheme` a tlačítkem Tab se budete přepínat mezi jednotlivými tématy.
 
