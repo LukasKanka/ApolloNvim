@@ -1,6 +1,6 @@
 # Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
 #### Verze: 24.03
-#### Link: [🚀  ApolloNvim](https://git.archoslinux.cz/kankys/ApolloNvim)
+#### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 ## Úvod:
 * 👉 Neovim  setup pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
@@ -54,15 +54,13 @@ Windows:
 
 ### Neovim:
 * 👉 Pro instalaci  ApolloNvim Distra stačí stáhnout si pouze soubor init.vim s tohoto repositáře.
-* 👉 Ulož ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeň na zálohu stávajících souborů**
+* 👉 Uložte ho do kořenováho adresáře `~/.. /nvim` dle tvého OS. **Nezapomeňte na zálohu stávajících souborů**
 * 👉 Neovim pustíte v terminálu příkazem `nvim`.
-* 👉 Odklikej chybová hlášení.
-* 👉 V Neovimu zadej do command line `PlugInstall` , tím nainstaluješ všechny pluginy. Restartuj Neovim.
-* 👉 Pokud vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `plug.vim`. Více informací najdete na GitHubu [plug.vim](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
+* 👉 Odklikejte chybová hlášení.
+* 👉 V Neovimu zadejte do command line `PlugInstall` , tím nainstalujete všechny pluginy. Restartujte Neovim.
+* 👉 Pokud Vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `plug.vim`. Více informací najdete na GitHubu [plug.vim](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
 * 👉 Pokud některý plugin nechcete používat stačí ho v souboru `init.vim` zakomentovat pomocí dvojitých uvozovek `"`.
 * 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall coc-todolist coc-tailwindcss coc-prettier coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartujte Neovim a vše máte připravené.
-
-* 👉 Také se zde podívejte do souboru [Hint.md](https://git.archoslinux.cz/kankys/ApolloNvim/src/branch/main/Hint.md), pomůže vám na začátku.
 * 👉 Tuto konfiguraci používám na Linuxu i MacOS. Je odzkoušena i na Windows 11.
 
 ### Plán 🚀ApolloNvim:
@@ -87,6 +85,8 @@ Windows:
 * 👉 [fzf.vim](https://github.com/junegunn/fzf.vim) asynchronní vyhledávač souborů v projektu. Pro mnohé je toto vyhledávaní rychlejší než klasické stromové, chce to trochu času. Ale jak se to dostane pod kůži, vše ostatní vám už přijde nedodělané.
 * 👉 [Light Line](https://github.com/itchyny/lightline.vim) informační pruh do spodní lišty.
 * 👉 [Auto-save](https://github.com/Pocco81/auto-save.nvim) plugin pro automatické ukládání vašich souboru.
+
+  
 ### Coc extensions pro front-end:
 * 👉 coc-todolist
 * 👉 coc-tailwindcss
@@ -107,18 +107,17 @@ Windows:
 
 
 ### Otázky a odpovědi:
-* 👉 Kolik stojí 🚀 ApolloNvim? -> Ne 🚀 ApolloNvim je zdarma.
+* 👉 Kolik stojí 🚀 ApolloNvim? -> Nic 🚀 ApolloNvim je zdarma.
 ### Kontakty:
 * 👉 [🚀 ApolloNvim Telegram skupina](https://t.me/+o6qcLGlFROJhNzhk)
 * 👉 [Osobní web autora 🚀 ApolloNvim ](https://lukaskanka.cz/)
 * 👉 [Gitea profil](https://git.archoslinux.cz/kankys)
 * 👉 [GitHub](https://github.com/LukasKanka/)
-* 👉 [Nostr](https://nostr.band/npub12xzu8ejrl9cwpd034cqj5jtuztn4mxp3em2frckm9tk28kmy48vqr0u0yu)
 * 👉 [Mastadon](https://mastodon.arch-linux.cz/@Kankys)
 
 ### Podpora:
-* 👉 Pokud jakkoliv chceš podpořit nebo se podílet na obsahu a funkčnosti 🚀 ApolloNvim, budu rád, když mi zde napíšeš.
-* 👉 Taky můžeš tento projekt podpořit pár Satoshi:
+* 👉 Pokud jakkoliv chcete podpořit nebo se podílet na obsahu a funkčnosti 🚀 ApolloNvim, budu rád, když mi zde napíšete.
+* 👉 Taky můžete tento projekt podpořit pár Satoshi:
 ![SAT](https://lukaskanka.cz/index/about/img/sat.jpeg )
 ### Další projekty a odkazy:
 * 👉 [ArchLinux CZ](https://arch-linux.cz/)
