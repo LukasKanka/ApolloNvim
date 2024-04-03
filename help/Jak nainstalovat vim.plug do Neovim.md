@@ -10,7 +10,7 @@ Windows:
 
 `~\AppData\Local\nvim`
 
- Běžte na tuto stránku pod Installation si najděte svůj operační systém a zkopírujte odkaz pod ním do svého terminálu a pomocí Enter nainstalujete vim.plug.
+ Běžte na tuto [stránku](https://github.com/junegunn/vim-plug) pod Installation si najděte svůj operační systém a zkopírujte odkaz pod ním do svého terminálu a pomocí Enter nainstalujete vim.plug.
 
 Na Linuxu a macOS to bude tento příkaz:
 
