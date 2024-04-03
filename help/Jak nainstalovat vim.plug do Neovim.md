@@ -1,8 +1,8 @@
 # Jak nainstalovat vim.plug do Neovim
 
-👉 Nejprve si však zálohujte své aktuální nastavení Neovim!!!
+Nejprve si však zálohujte své aktuální nastavení Neovim!!!
 
-👉 Linux & Mac:
+Linux & Mac:
 
 `~/.config/nvim/init.vim`
 
@@ -10,7 +10,7 @@ Windows:
 
 `~\AppData\Local\nvim`
 
-👉 Běžte na tuto stránku pod Installation si najděte svůj operační systém a zkopírujte odkaz pod ním do svého terminálu a pomocí Enter nainstalujete vim.plug.
+ Běžte na tuto stránku pod Installation si najděte svůj operační systém a zkopírujte odkaz pod ním do svého terminálu a pomocí Enter nainstalujete vim.plug.
 
 Na Linuxu a macOS to bude tento příkaz:
 
@@ -28,7 +28,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 Dále si otevřeme soubor init.vim a pokud ho nemáme tak si ho vytvoříme zde:
 
-👉 Linux & Mac:
+ Linux & Mac:
 
 `~.config/nvim/init.vim`
 
