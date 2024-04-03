@@ -3,45 +3,44 @@ set number
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
+"Prettier + setup
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install --frozen-lockfile --production',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
 Plug 'othree/html5.vim'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-" AutocloseTag
-Plug 'm4xshen/autoclose.nvim'
+ Plug 'shellRaining/hlchunk.nvim' " Propojovací line (lua)
 
-" NERDTree postraní panel 
-Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' } " Free AI codium
 
-"Coc
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'm4xshen/autoclose.nvim' " AutocloseTag
 
-" Tabnine
-Plug 'codota/tabnine-nvim', { 'do': './dl_binaries.sh' }
+Plug 'https://github.com/scrooloose/nerdtree' " NERDTree postraní panel 
 
-" Alternativní startovací obrazovka
-Plug 'mhinz/vim-startify'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} "Coc balíčkovací systém
 
-" NERD Commenter
-Plug 'preservim/nerdcommenter'
+Plug 'mhinz/vim-startify' " Alternativní startovací obrazovka
 
-" Wakatime
-Plug 'wakatime/vim-wakatime'
+Plug 'preservim/nerdcommenter'  " NERD Commenter
+
+Plug 'wakatime/vim-wakatime' " Wakatime
 
 " Search plugin s asynchroním vyhledáváním
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-"Spodní lišta 
-Plug 'itchyny/lightline.vim'
+Plug 'ryanoasis/vim-devicons' " Icons
 
-" Autosave
-Plug 'Pocco81/auto-save.nvim'
+Plug 'lilydjwg/colorizer' " Náhled barev css
+
+Plug 'Pocco81/auto-save.nvim' " Autosave
 
 " Theme
-Plug 'dracula/vim'
-
-Plugin 'NLKNguyen/papercolor-theme'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 Plug 'Tsuzat/NeoSolarized.nvim', { 'branch': 'master' }
 
@@ -75,11 +74,12 @@ Plug 'nordtheme/vim'
 
 call plug#end()
 
-" Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy
-" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+" kdyžtak smazat -> konfigurace
+" autocmd CursorHold * silent call CocActionAsync('highlight')
 
-" Autostart NERDTreeFocus
-autocmd VimEnter * call NERDTreeFocus()
+ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>" " Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy
+
+" autocmd VimEnter * call NERDTreeFocus() " Autostart NERDTreeFocus
 
 " Komentáře NERD Commenter klávesové zkratky
 let mapleader=","
@@ -87,44 +87,43 @@ nmap <C-k> <plug>NERDCommenterToggle
 vmap <C-l> <plug>NERDCommenterToggle<CR>
 
 " Atomaticky po startu theme
-colorscheme dracula
-autocmd VimEnter * colorscheme dracula
+colorscheme nightfly
+autocmd VimEnter * colorscheme nightfly
 
 " Autosave
 let g:auto_save_enabled = 1
 let g:auto_save_delay = 3000
 let g:auto_save_events = ['InsertLeave', 'TextChanged']
 
-
-" Nastavení Prettieru
-command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
-
-let g:prettier#autoformat = 1
-let g:prettier#autoformat_require_pragma = 1
-let g:prettier#autoformat_config_files = ['prettier.config.js', '.prettierrc', '.prettierrc.json', '.prettierrc.yml', '.prettierrc.yaml', '.prettierrc.json5', '.prettierrc.js', '.prettierrc.cjs', '.prettierrc.toml', '.prettierrc.jsonc', '.prettierrc.html']
-
+" keys pretier
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 
 
 
 lua <<EOF
 
---Tabnine setup ( Tabnine PRO) 
-require('tabnine').setup({
-  disable_auto_comment=true,
-  accept_keymap="<Tab>",
-  dismiss_keymap = "<C-]>",
-  debounce_ms = 800,
-  suggestion_color = {gui = "#808080", cterm = 244},
-  exclude_filetypes = {"TelescopePrompt", "NvimTree"},
-  log_file_path = nil, -- absolute path to Tabnine log file
-})
-
-
 --AutocloseTag setup
 require("autoclose").setup()
 
-
+--Line
+require('hlchunk').setup({
+ indent = {
+    chars = {
+        "│",
+    },
+    style = {
+        "#FF0000",
+        "#FF7F00",
+        "#FFFF00",
+        "#00FF00",
+        "#00FFFF",
+        "#0000FF",
+        "#8B00FF",
+    },
+}
+    
+})
 EOF
-
 
 
