@@ -61,7 +61,7 @@ Windows:
 * 👉 V Neovimu zadejte do command line `PlugInstall` , tím nainstalujete všechny pluginy. Restartujte Neovim.
 * 👉 Pokud Vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `plug.vim`. Více informací najdete na GitHubu [plug.vim](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
 * 👉 Pokud některý plugin nechcete používat stačí ho v souboru `init.vim` zakomentovat pomocí dvojitých uvozovek `"`.
-* 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall coc-todolist coc-tailwindcss coc-prettier coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartujte Neovim a vše máte připravené.
+* 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall coc-todolist coc-tailwindcss coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartujte Neovim a vše máte připravené.
 * 👉 Tuto konfiguraci používám na Linuxu i MacOS. Je odzkoušena i na Windows 11.
 
 ### Plán 🚀ApolloNvim:
@@ -92,9 +92,7 @@ Windows:
 * 👉 coc-todolist
 * 👉 coc-tailwindcss
 * 👉 coc-project-manager
-* 👉 coc-prettier
-* 👉 coc-json
-* 👉 coc-html-css-support
+* 👉 coc-json* 👉 coc-html-css-support
 * 👉 coc-html
 * 👉 coc-emmet
 * 👉 coc-xml
