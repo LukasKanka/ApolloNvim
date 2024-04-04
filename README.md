@@ -3,7 +3,7 @@
 #### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 ## Úvod:
-* Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo fórech najdeš odpověď.
+* Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo fórech najdeš odpověď. Táke si vždy vše před změnou zálohuj!
 * 👉 Neovim  setup pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim)
 * 👉 Výhody Neovim oproti klasickému IDE jsou nesporně ve svobodě konfigurace, je tisíce možností, jak Váš Neovim může vypadat a fungovat. Pro Vaši inspiraci a použití vznikl tento projekt 🚀 ApolloNvim.
 * 👉 Tato distribuce nefunguje jen, že kliknete na tlačítko a nainstaluje se. Vede Vás k samostatné instalaci pomocí tohoto webu. Cílem je pochopit, jak Neovim funguje, abyste si sami mohli vše modifikovat, což i click-on distribucí se nenaučíte.
