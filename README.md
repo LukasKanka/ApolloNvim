@@ -17,6 +17,50 @@
 * 👉 Ty nejlepší témata pro Neovim (ať je nemusíte hledat), je defaultně nastavéné Dracula.
 * 👉 Téma v Neovim si jednoduše změníte v command line příkazem `colorscheme` a tlačítkem Tab se budete přepínat mezi jednotlivými tématy.
 
+##  Pluginu  🚀 ApolloNvim Distro 2024:
+
+### Bezpečnost a soukromí je to nejdůležitější, proto tu je tento seznam. V seznamu najdeš všechny pluginy co jsou použité v této konfiguraci s odkazem na zdroj. Plaginy které nechceš požívat zakomentuj nebo smaž v init.vim. Případě Coc plugin vynech při příkazu CocInstall název-plaginu.
+
+* 👉 [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
+* 👉 [Prettier](https://giěthub.com/prettier/vim-prettier) plugin pro zarovnání kódu.
+* 👉 [html5.vim](https://github.com/othree/html5.vim) plugin pro HTML syntax highlighting.
+* 👉 [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří vám stromový postranní panel.
+* 👉 [Codeium](https://github.com/Exafunction/codeium.vim)alternativa k GitHub Copilot, který si případně lehce také můžete doinstalovat. 
+* 👉 [Startify](https://github.com/mhinz/vim-startify)alternativní uvítací obrazovka s pokaždé jiným IT mottem. Nemusí fungovat s některými terminály či NERDTree nastaveným spuštěním po startu.
+* 👉 [NERD Commenter](https://github.com/preservim/nerdcommenter) plugin pro zakomentování a odkomentování kódu. Zde ho máme nastaven na `Ctrl + k`.
+* 👉 [Wakatime](https://wakatime.com/neovim)služba, která je schopna změřit, kolik času jste trávili při kódování na pc a i na kterém projektu. Služba se jednoduše propojí přes API.  WakaTime najdeš [zde](https://wakatime.com/).
+* 👉 [Auto-save](https://github.com/Pocco81/auto-save.nvim) plugin pro automatické ukládání vašich souboru.
+* 👉 [Tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter) plugin pro zvýraznění kódu.
+* 👉 [Hlchunk](https://github.com/shellRaining/hlchunk.nvim) propojí kód vertikálními lajny..
+* 👉 [Vim-Fugitive](https://github.com/shellRaining/hlchunk.nvim) plugin pro git.
+* 👉 [Telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) plugin pro vyhledávaní souborů.
+* 👉 [Gitsigns](https://github.com/lewis6991/gitsigns.nvim) plugin pro prohlížení změn kódu v reálném čase.
+* 👉 [Planery](https://github.com/nvim-lua/plenary.nvim) asynchroní operace.
+* 👉 [Telescope](https://github.com/nvim-telescope/telescope.nvim) plugin pro vyhledávaní a vybrání souborů.
+* 👉 [Devicons](https://github.com/ryanoasis/vim-devicons) icony pro Neovim.
+* 👉 [Colorizer](https://github.com/lilydjwg/colorizer) plugin pro náhled barev dle kódového označení.
+
+### Coc extensions:
+* 👉 [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplňků do Neovim.
+
+* 👉 coc-tailwindcss
+* 👉 coc-json
+* 👉 coc-html-css-support
+* 👉 coc-html
+* 👉 coc-emmet
+* 👉 coc-xml
+* 👉 coc-tsserver
+* 👉 coc-lsp-wl
+* 👉 coc-lit-html
+* 👉 coc-htmldjango
+* 👉 coc-css
+* 👉 coc-markdown-preview-enhanced
+* 👉 coc-webview
+* 👉 coc-markdownlint
+
+
+
+
 ## Instalace a nastavení:
 *  👉Pokud ještě nemáte, nainstalujte si [Neovim](https://neovim.io/).
 *  👉 Bude potřeba nainstalovat plug.vim abyste mohl/a instalovat rozšíření.
@@ -59,9 +103,10 @@ Windows:
 * 👉 Neovim pustíte v terminálu příkazem `nvim`.
 * 👉 Odklikejte chybová hlášení.
 * 👉 V Neovimu zadejte do command line `PlugInstall` , tím nainstalujete všechny pluginy. Restartujte Neovim.
-* 👉 Pokud Vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `plug.vim`. Více informací najdete na GitHubu [plug.vim](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
+* 👉 Pokud Vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `vim.plug`. Více informací najdete na GitHubu [vim.plug](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
 * 👉 Pokud některý plugin nechcete používat stačí ho v souboru `init.vim` zakomentovat pomocí dvojitých uvozovek `"`.
 * 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall  coc-tailwindcss coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartujte Neovim a vše máte připravené.
+* 👉 Pokud se Vám vše nechce instalovat ručně můžete stáhnout tento repožitář a nainstalujte si pouze `vim.plug` (jak nainstalovat vim.plug najdeš výšše) a pak stačí jen použít příkaz `:PlugInstall` a vše Vám bude hned fungovat. 
 * 👉 Tuto konfiguraci používám na Linuxu i MacOS. Je odzkoušena i na Windows 11.
 
 ### Plán 🚀ApolloNvim:
@@ -73,35 +118,6 @@ Windows:
 - 👉 [] Návody k pluginům, jak nastavit a jak s nimi pracovat.
 - 👉 [] Návody k práci s Neovim.
 
-
-## Výběr pluginu v Lite Web 🚀 ApolloNvim Distro 2024:
-
-* 👉 [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
-* 👉 [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří vám stromový postranní panel.
-* 👉 [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplňků do Neovim.
-* 👉 [Codeium](https://github.com/Exafunction/codeium.vim)alternativa k GitHub Copilot, který si případně lehce také můžete doinstalovat. 
-* 👉 [Startify](https://github.com/mhinz/vim-startify)alternativní uvítací obrazovka s pokaždé jiným IT mottem. Nemusí fungovat s některými terminály či NERDTree nastaveným spuštěním po startu.
-* 👉 [NERD Commenter](https://github.com/preservim/nerdcommenter) plugin pro zakomentování a odkomentování kódu. Zde ho máme nastaven na `Ctrl + k`.
-* 👉 [Wakatime](https://wakatime.com/neovim)služba, která je schopna změřit, kolik času jste trávili při kódování na pc a i na kterém projektu. Služba se jednoduše propojí přes API.  WakaTime najdeš [zde](https://wakatime.com/).
-* 👉 [fzf.vim](https://github.com/junegunn/fzf.vim) asynchronní vyhledávač souborů v projektu. Pro mnohé je toto vyhledávaní rychlejší než klasické stromové, chce to trochu času. Ale jak se to dostane pod kůži, vše ostatní vám už přijde nedodělané.
-* 👉 [Light Line](https://github.com/itchyny/lightline.vim) informační pruh do spodní lišty.
-* 👉 [Auto-save](https://github.com/Pocco81/auto-save.nvim) plugin pro automatické ukládání vašich souboru.
-
-  
-### Coc extensions pro front-end:
-* 👉 coc-tailwindcss
-* 👉 coc-json* 👉 coc-html-css-support
-* 👉 coc-html
-* 👉 coc-emmet
-* 👉 coc-xml
-* 👉 coc-tsserver
-* 👉 coc-lsp-wl
-* 👉 coc-lit-html
-* 👉 coc-htmldjango
-* 👉 coc-css
-* 👉 coc-markdown-preview-enhanced
-* 👉 coc-webview
-* 👉 coc-markdownlint
 
 
 ### Otázky a odpovědi:

@@ -1,0 +1,67 @@
+
+## Obecné nastavení
+
+Pro základní nastavení v init.vim mám pro Vás pár tipů, pojďme jej otevřít:  
+
+```
+nvim init.vim
+```
+
+Přidáme základní nastavení do init.vim:  
+
+```
+" umožňuje zvýraznění syntaxe
+syntax on
+
+" Lepší barvy
+set termguicolors
+
+" počet pozic okolik se posuneme pomocí  <Tab>
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+" povolení odrážek
+set smartindent
+
+" počet mezer použitých pro automatické odrážky
+set shiftwidth=4
+
+" zobrazení čísla řádku
+set number
+
+" sloupce používané pro číslo řádku
+set numberwidth=4
+
+" zvýrazní při vyhledávání shodného textu.
+set incsearch
+set nohlsearch
+
+" intuitivně otevřít rozdělení nových oken
+set splitbelow
+set splitright
+
+" procházení vyrovnávací (oken) paměti bez ztráty neuložené práce
+set hidden
+
+" začít posouvat stránku, když je 8 řádků od horního nebo dolního okraje
+set scrolloff=8
+
+" Uložení historie
+set undofile
+
+" Povolení podpory myši
+set mouse=a
+
+" vyhledávání bez rozlišení velkých a malých písmen, pokud nejsou použita velká písmena
+set ignorecase
+set smartcase
+```
+
+Pokud chcete více informací o každém nastavení, můžete napsat `:h <název nastavení>`uvnitř Neovimu, vyvoláte nápovědu pro toto konkrétní nastavení. Například:  
+
+```
+:h number
+```
+
+Zobrazí sekci nápovědy pro `number`.
