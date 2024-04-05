@@ -1,5 +1,6 @@
 set number
-
+set noshowmode
+set signcolumn=number
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
@@ -17,7 +18,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'Exafunction/codeium.vim', { 'branch': 'main' } " Free AI codium
 
-Plug 'm4xshen/autoclose.nvim' " AutocloseTag
+Plug 'm4xshen/autoclose.nvim' " AutocloseTag (lua)
 
 Plug 'https://github.com/scrooloose/nerdtree' " NERDTree postraní panel 
 
@@ -25,13 +26,21 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'} "Coc balíčkovací systém
 
 Plug 'mhinz/vim-startify' " Alternativní startovací obrazovka
 
-Plug 'preservim/nerdcommenter'  " NERD Commenter
+Plug 'preservim/nerdcommenter'  " NERD Commenter - komentáře
 
 Plug 'wakatime/vim-wakatime' " Wakatime
 
-" Search plugin s asynchroním vyhledáváním
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive' " Git - vim fugitive
+
+Plug 'lewis6991/gitsigns.nvim' " Git Signs (lua) - prohlížení smazaných řádku
+
+" Telescope (lua)
+" Telescope requires plenary to function
+Plug 'nvim-lua/plenary.nvim'
+" The main Telescope plugin
+Plug 'nvim-telescope/telescope.nvim'
+" An optional plugin recommended by Telescope docs
+Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make' }
 
 Plug 'ryanoasis/vim-devicons' " Icons
 
@@ -74,14 +83,17 @@ Plug 'nordtheme/vim'
 
 call plug#end()
 
-" kdyžtak smazat -> konfigurace
-" autocmd CursorHold * silent call CocActionAsync('highlight')
+lua require('kankys')
 
- inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>" " Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy
 
-" autocmd VimEnter * call NERDTreeFocus() " Autostart NERDTreeFocus
+ " Nastavení klávesy Enter pro potvrzení výběru z vyskakovací nápovědy - nejde
+ " s autoclose!
+ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>" 
 
-" Komentáře NERD Commenter klávesové zkratky
+ " Autostart NERDTree
+" autocmd VimEnter * call NERDTreeFocus() " Autostart NERDTreeFocus   
+
+" Komentáře NERD Commenter klávesové zkratky Ctrl + k + l
 let mapleader=","
 nmap <C-k> <plug>NERDCommenterToggle
 vmap <C-l> <plug>NERDCommenterToggle<CR>
@@ -125,5 +137,6 @@ require('hlchunk').setup({
     
 })
 EOF
+
 
 
