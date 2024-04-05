@@ -22,6 +22,7 @@
 ### Bezpečnost a soukromí je to nejdůležitější, proto tu je tento seznam. V seznamu najdeš všechny pluginy co jsou použité v této konfiguraci s odkazem na zdroj. Plaginy které nechceš požívat zakomentuj nebo smaž v init.vim. Případě Coc plugin vynech při příkazu CocInstall název-plaginu.
 
 * 👉 [Autoclosetag](https://github.com/m4xshen/autoclose.nvim) nástroj pro uzavírání všech typů závorek a tagů.
+* 👉 [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplňků do Neovim.
 * 👉 [Prettier](https://giěthub.com/prettier/vim-prettier) plugin pro zarovnání kódu.
 * 👉 [html5.vim](https://github.com/othree/html5.vim) plugin pro HTML syntax highlighting.
 * 👉 [NERDTree](https://github.com/valsorym/scrooloose-nerdtree) vytvoří vám stromový postranní panel.
@@ -42,7 +43,7 @@
 
 ### Coc extensions:
 * 👉 [Coc](https://github.com/neoclide/coc.nvim) manager pro instalování doplňků do Neovim.
-
+* 👉 [Coc extensions](https://www.npmjs.com/search?q=keywords%3Acoc.nvim) pod tímto odkazem najdeš všechny rozšíření do Neovim.
 * 👉 coc-tailwindcss
 * 👉 coc-json
 * 👉 coc-html-css-support
@@ -58,8 +59,28 @@
 * 👉 coc-webview
 * 👉 coc-markdownlint
 
-
-
+### Colorschemes v tomto projektu:
+* 👉 [Dracula](https://github.com/dracula/vim)téma Dracula pro Neovim.
+* 👉 [Gruvbox](https://github.com/morhetz/gruvbox) téma Gruvbox pro Neovim.
+* 👉 [Catppuccin](https://github.com/catppuccin/nvim) téma Catppuccin pro Neovim.
+* 👉 [Nord](https://github.com/arcticicestudio/nord-vim) téma Nord pro Neovim.
+* 👉 [Tokyo Night](https://github.com/ghifarit53/tokyonight-vim) téma Tokyo Night pro Neovim.
+* 👉 [Nightfox](https://github.com/EdenEast/nightfox.nvim) těma Nightfox pro Neovim.
+* 👉 [Sonokai](https://github.com/sainnhe/sonokai) téma Sonokai pro Neovim.
+* 👉 [NeoSolarized](https://github.com/Tsuzat/NeoSolarized.nvim) téma NeoSolarized pro Neovim.
+* 👉 [Moonfly](https://github.com/bluz71/vim-moonfly-colors) téma Moonfly pro Neovim.
+* 👉 [Onedark](https://github.com/joshdick/onedark.vim) téma OneDark pro Neovim.
+* 👉 [Edge](https://github.com/sainnhe/edge) téma Edge pro Neovim.
+* 👉 [Airline](https://github.com/vim-airline/vim-airline) téma Airline pro Neovim.
+* 👉 [GitHub](https://github.com/projekt0n/github-nvim-theme) téma GitHub pro Neovim.
+* 👉 [Nightfly](https://github.com/bluz71/vim-nightfly-colors) téma Nightfly pro Neovim.
+* 👉 [Miasma](https://github.com/xero/miasma.nvim) téma Miasma pro Neovim.
+* 👉 [Pink moon](https://github.com/sts10/vim-pink-moon) téma Pink moon pro Neovim.
+* 👉 [Anderson](https://github.com/tlhr/anderson.vim) téma Anderson pro Neovim.
+* 👉 [Tender](https://github.com/jacoborus/tender.vim) téma Tender pro Neovim.
+* 👉 [Nightfox](https://github.com/EdenEast/nightfox.nvim) téma Nightfox pro Neovim.
+* 👉 [Night owl](https://github.com/haishanh/night-owl.vim) téma Night owl pro Neovim.
+    
 
 ## Instalace a nastavení:
 *  👉Pokud ještě nemáte, nainstalujte si [Neovim](https://neovim.io/).
