@@ -1,6 +1,6 @@
 # 🚀 ApolloNvim Distro 2024 -  Front-End Power
 #### Verze: 24.03
-#### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/apollo-nvim/index.html)
+#### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/terminal-space/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 ## Úvod:
 * Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo fórech najdeš odpověď. Táke si vždy vše před změnou zálohuj!
@@ -32,7 +32,7 @@ Windows:
 ```
 
 ### Node.js:
-* 👉 Doporučuji mít nainstalovaný [Node.js](https://nodejs.org/en) 
+* 👉 Doporučuji imít nainstalovaný [Node.js](https://nodejs.org/en) 
 * 👉 Dále si v Node.js nainstalujte [Live-server](https://www.npmjs.com/package/live-server) příkazem `npm i live-server`.
 * 👉 Ve svém projektu budete moci pouštět svůj index.html příkazem `npx live-server`.
 * 👉 Pro správnou funkčnost LSP si doinstalujte tyto balíčky:
@@ -100,6 +100,7 @@ Windows:
 * 👉 coc-htmldjango
 * 👉 coc-css
 * 👉 coc-markdown-preview-enhanced
+* 👉 coc-webview
 * 👉 coc-markdownlint
 
 
