@@ -1,4 +1,4 @@
-# Lite 🚀 ApolloNvim Distro 2024 -  Front-End Power
+# 🚀 ApolloNvim Distro 2024 -  Front-End Power
 #### Verze: 24.03
 #### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
