@@ -3,7 +3,7 @@
 #### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/terminal-space/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
 ## Úvod:
-* Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo na fórech najdeš odpověď. Táke si vždy vše před změnou zálohuj!
+* **Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo na fórech najdeš odpověď. Táke si vše vždy před změnou zálohuj!**
 * 👉 Neovim  setup pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim) a [Lua](https://neovim.io/doc/user/lua-guide.html).
 * 👉 Výhody Neovim oproti klasickému IDE jsou nesporně ve svobodě konfigurace, je tisíce možností, jak Váš Neovim může vypadat a fungovat. Pro Vaši inspiraci a použití vznikl tento projekt 🚀 ApolloNvim.
 * 👉 Tato distribuce nefunguje jen, že kliknete na tlačítko a nainstaluje se. Vede Vás k samostatné instalaci pomocí tohoto webu. Cílem je pochopit, jak Neovim funguje, abyste si sami mohli vše modifikovat, což i click-on distribucí se nenaučíte.
@@ -33,7 +33,7 @@
 * 👉 [Auto-save](https://github.com/Pocco81/auto-save.nvim) plugin pro automatické ukládání vašich souboru.
 * 👉 [Tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter) plugin pro zvýraznění kódu.
 * 👉 [Hlchunk](https://github.com/shellRaining/hlchunk.nvim) propojí kód vertikálními lajny..
-* 👉 [Vim-Fugitive](https://github.com/shellRaining/hlchunk.nvim) plugin pro git.
+* 👉 [Vim-Fugitive](https://github.com/tpope/vim-fugitive) plugin pro git.
 * 👉 [Telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) plugin pro vyhledávaní souborů.
 * 👉 [Gitsigns](https://github.com/lewis6991/gitsigns.nvim) plugin pro prohlížení změn kódu v reálném čase.
 * 👉 [Planery](https://github.com/nvim-lua/plenary.nvim) asynchroní operace.
