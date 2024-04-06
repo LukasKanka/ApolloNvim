@@ -57,7 +57,7 @@
 * 👉 coc-css
 * 👉 coc-markdown-preview-enhanced
 * 👉 coc-webview
-* 👉 coc-markdownlint
+
 
 ### Colorschemes v tomto projektu:
 * 👉 [Dracula](https://github.com/dracula/vim)téma Dracula pro Neovim.
@@ -93,7 +93,7 @@ Linux & Mac:
 ```
 Windows:
 ```
-~/AppData/Local/nvim/
+~/AppData/Local/nvim/init.vim
 ```
 
 ### Node.js:
@@ -126,7 +126,7 @@ Windows:
 * 👉 V Neovimu zadejte do command line `PlugInstall` , tím nainstalujete všechny pluginy. Restartujte Neovim.
 * 👉 Pokud Vám některý plugin chybí, můžete lehce doinstalovat  nebo odinstalovat pomocí `vim.plug`. Více informací najdete na GitHubu [vim.plug](https://github.com/junegunn/vim-plug) nebo velmi rád poradím viz. o nás.
 * 👉 Pokud některý plugin nechcete používat stačí ho v souboru `init.vim` zakomentovat pomocí dvojitých uvozovek `"`.
-* 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall  coc-tailwindcss coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced coc-markdownlint`. A ještě jednou restartujte Neovim a vše máte připravené.
+* 👉 Do command line ještě zadejte Coc příkaz, pro doinstalování zbylých pluginů `CocInstall  coc-tailwindcss coc-json coc-html-css-support coc-html coc-emmet coc-xml coc-tsserver coc-lsp-wl coc-lit-html coc-htmldjango coc-css coc-markdown-preview-enhanced`. A ještě jednou restartujte Neovim a vše máte připravené.
 * 👉 Pokud se Vám vše nechce instalovat ručně můžete stáhnout tento repožitář a nainstalujte si pouze `vim.plug` (jak nainstalovat vim.plug najdeš výšše) a pak stačí jen použít příkaz `:PlugInstall` a vše Vám bude hned fungovat. 
 * 👉 Tuto konfiguraci používám na Linuxu i MacOS. Je odzkoušena i na Windows 11.
 
