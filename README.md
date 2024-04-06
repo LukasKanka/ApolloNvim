@@ -144,11 +144,10 @@ Windows:
 ### Otázky a odpovědi:
 * 👉 Kolik stojí 🚀 ApolloNvim? -> Nic 🚀 ApolloNvim je zdarma.
 ### Kontakty:
+* 👉 [Discord skupina](https://discord.gg/KWcf76AX)
 * 👉 [🚀 ApolloNvim Telegram skupina](https://t.me/+o6qcLGlFROJhNzhk)
 * 👉 [Osobní web autora 🚀 ApolloNvim ](https://lukaskanka.cz/)
-* 👉 [Gitea profil](https://git.archoslinux.cz/kankys)
 * 👉 [GitHub](https://github.com/LukasKanka/)
-* 👉 [Mastadon](https://mastodon.arch-linux.cz/@Kankys)
 
 ### Podpora:
 * 👉 Pokud jakkoliv chcete podpořit nebo se podílet na obsahu a funkčnosti 🚀 ApolloNvim, budu rád, když mi zde napíšete.
