@@ -2,6 +2,7 @@
 #### Verze: 24.03
 #### Link: [🚀  ApolloNvim](https://lukaskanka.cz/index/terminal-space/apollo-nvim/index.html)
 ![ApolloNvim](https://lukan.cz/wp-content/uploads/2024/03/neovim__1_.png)
+# Programování je mnohem zábavnější, když jste efektivní. Neovim vás tam může časem dostat, ale musíte být ochotni zkoušet nové věci. Nové pluginy, nové remapy atd. 
 ## Úvod:
 * **Vždy se podívej před instalací nových pluginu, na  dokumentaci k plaginům na Githubu. Předejdeš tím případným problémům! Pokud si nejsi jistý postupem nebo ti není něco jasné, tak raději se podívej do dokumentace,napiš nám nebo na fórech najdeš odpověď. Táke si vše vždy před změnou zálohuj!**
 * 👉 Neovim  setup pro Front-End vývoj postavený na  [Coc](https://github.com/neoclide/coc.nvim) a [Lua](https://neovim.io/doc/user/lua-guide.html).
